@@ -6,11 +6,11 @@ metadata:
 spec:
   source:
     path: ch08/apps/golist-api
-    repoURL: 'https://github.com/sabre1041/argocd-up-and-running-book'
+    repoURL: "https://github.com/matthew-hull-bright/argocd-up-and-running-book"
     targetRevision: main
   destination:
     namespace: golist
-    server: 'https://kubernetes.default.svc'
+    server: "https://kubernetes.default.svc"
   project: golist
   syncPolicy:
     automated:
